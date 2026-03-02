@@ -62,7 +62,7 @@ $ cat README.md
 - [Esquite](https://github.com/ElotlMX/Esquite/)
 ```
 
-## Tarea 1: Exploración de Niveles del lenguaje 🔭
+## Práctica 1: Exploración de Niveles del lenguaje 🔭
 
 ### FECHA DE ENTREGA: 10 de Marzo 2026 at 11:59pm
 
@@ -94,3 +94,28 @@ $ cat README.md
     - ¿Por qué crees que se confundió?
     - ¿Es un problema de ambigüedad léxica (la palabra tiene múltiples etiquetas)?
     - ¿Qué *features* añadirías para solucionarlo?
+
+
+## Práctica 2: Propiedades estadísticas del lenguaje y Diversidad
+
+### Fecha de entrega: 17 de Marzo de 2026 11:59pm 
+
+**1. Verificación empírica de la Ley de Zipf**
+
+Verificar si la ley de Zipf se cumple en un lenguaje artificial creado por ustedes.
+* *Instrucciones:* Creen un script que genere un texto aleatorio seleccionando caracteres al azar de un alfabeto definido. **Nota:** Asegúrense de incluir el carácter de "espacio" en su alfabeto para que el texto se divida en "palabras" de longitudes variables.
+* Obtengan las frecuencias de este texto artificial y generen las gráficas de rango vs. frecuencia (en escala lineal y logarítmica).
+* ¿Se aproxima a la ley de Zipf? Justifiquen su respuesta comparándolo con el comportamiento del corpus visto en clase.
+
+**2. Desempeño de NER en distintos dominios (Out-of-domain)**
+Explorar la plataforma [Hugging Face Datasets](https://huggingface.co/datasets) y elegir documentos en Español provenientes de al menos 3 dominios muy distintos (ej. noticias, artículos médicos, tweets/redes sociales, foros legales).
+* Realizar Reconocimiento de Entidades Nombradas (NER) en muestras de cada dominio utilizando spaCy o la herramienta de su preferencia.
+* Mostrar una distribución de frecuencias de las etiquetas (PER, ORG, LOC, etc.) más comunes por dominio.
+* **Análisis:** Incluyan comentarios críticos sobre el desempeño observado. ¿En qué dominio el modelo cometió más errores y a qué creen que se deba estadísticamente?
+
+**3. Cuantificando la diversidad genealógica (Glottolog)**
+Utilizando el código visto en el laboratorio para reconstruir linajes y calcular distancias con el prefijo común más largo (Longest Common Prefix):
+* Seleccionen dos familias lingüísticas presentes en México que tengan al menos 5 lenguas registradas en el dataset (por ejemplo, Uto-Aztecan, Mayan, Otomanguean). 
+* Generen la matriz de similitud y el mapa de calor (Heatmap) para cada familia.
+* Calculen el **promedio general de similitud** de cada matriz (omitiendo la diagonal principal donde la lengua se compara consigo misma). 
+* **Conclusión:** ¿Qué familia lingüística presenta mayor diversidad interna (es decir, un promedio de similitud más bajo)?

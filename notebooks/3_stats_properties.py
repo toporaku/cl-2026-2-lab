@@ -15,6 +15,10 @@
 
 # # 3. Propiedades estadísticas del lenguaje
 
+# <a target="_blank" href="https://colab.research.google.com/github/umoqnier/cl-2026-2-lab/blob/main/notebooks/3_stats_properties.ipynb">
+#   <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
+# </a>
+
 # ## Objetivos
 
 # - Mostrar el uso de CFG y derivados
@@ -544,7 +548,7 @@ fig.update_layout(title='Matriz de Similitud Genealógica',
 fig.show()
 # -
 
-# ## Práctica 3: Propiedades estadísticas del lenguaje y Diversidad
+# ## Práctica 2: Propiedades estadísticas del lenguaje y Diversidad
 #
 # ### Fecha de entrega: 17 de Marzo de 2026 11:59pm 
 #
